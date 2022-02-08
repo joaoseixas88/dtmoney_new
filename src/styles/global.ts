@@ -16,6 +16,7 @@ export const GlobalbalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
     body, input, textarea, button{
         font-family: 'Poppins', sans-serif;
@@ -26,5 +27,45 @@ export const GlobalbalStyle = createGlobalStyle`
         font-weight: 600;
     }
     
+    .modal-content{
+    width: 100%;
+    max-width: 576px;
+    background: var(--background);
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.24rem;  
+    }
+
+    .modal-overlay{
+        background: rgba (0, 0, 0, 0.5);
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .react-btn{
+        background: var(--blue-light);
+        border-radius: 0.4rem;
+        color: white;
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+        border: 0;
+        padding: 3px;
+        transition: 0.2s;
+        cursor: pointer;
+        
+        
+        &:hover{
+            filter: brightness(0.6);
+
+        }
+    }
     
 `

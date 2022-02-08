@@ -14,5 +14,14 @@ export const Container = styled.div`
         div{
             display: flex;
             justify-content: center;
+            
         }
+        &.y{
+            color: var(--green)
+        }
+        &.n{
+            color: var(--red)
+        }
+       
+
 `

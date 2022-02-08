@@ -6,3 +6,4 @@ export const { format: formatPrice } = new Intl.NumberFormat('pt-br', {
 
 
 export const { format: formatDate } = new Intl.DateTimeFormat('pt-BR')
+

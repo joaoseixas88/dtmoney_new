@@ -8,6 +8,16 @@ export const Container = styled.div`
         width: 100%;
         border-collapse: 0 0.5rem;
         text-align: left;
+
+        td{
+            
+            &.income{
+                color: var(--green);
+            }
+            &.outcome{
+                color: var(--red);
+            }
+        }
     }
 
 `

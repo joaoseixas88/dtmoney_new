@@ -4,12 +4,14 @@
       "id": 1,
       "title": "Comprar ventilador",
       "amount": "169",
+      "type": "outcome",
       "category": "Casa",
       "created_at": "2021-02-12 09:00:00"
     },
     {
       "id": 2,
       "title": "Comprar algo",
+      "type": "outcome",
       "amount": "120",
       "category": "Casa",
       "created_at": "2022-02-12 09:00:00"
@@ -17,9 +19,66 @@
     {
       "id": 3,
       "title": "vender algo",
+      "type": "income",
       "amount": "100",
       "category": "Casa",
       "created_at": "2021-02-12 09:00:00"
+    },
+    {
+      "title": "Teste",
+      "amount": "1500",
+      "category": "Casa",
+      "type": "income",
+      "created_at": "2022-02-08T00:45:49.400Z",
+      "id": 4
+    },
+    {
+      "title": "Teste",
+      "amount": "1212",
+      "category": "ae",
+      "type": "income",
+      "created_at": "2022-02-08T00:46:45.953Z",
+      "id": 5
+    },
+    {
+      "title": "A",
+      "amount": "",
+      "category": "",
+      "type": "income",
+      "created_at": "2022-02-08T00:54:04.837Z",
+      "id": 6
+    },
+    {
+      "title": "Teste",
+      "amount": "1212",
+      "category": "c",
+      "type": "income",
+      "created_at": "2022-02-08T01:02:37.313Z",
+      "id": 7
+    },
+    {
+      "title": "ValorTeste",
+      "amount": "1500",
+      "category": "CC",
+      "type": "income",
+      "created_at": "2022-02-08T01:03:16.081Z",
+      "id": 8
+    },
+    {
+      "title": "TEste",
+      "amount": "12",
+      "category": "12",
+      "type": "income",
+      "created_at": "2022-02-08T01:03:34.107Z",
+      "id": 9
+    },
+    {
+      "title": "Valor Teste",
+      "amount": "20000",
+      "category": "Testar",
+      "type": "outcome",
+      "created_at": "2022-02-08T01:04:45.466Z",
+      "id": 10
     }
-  ]  
+  ]
 }
